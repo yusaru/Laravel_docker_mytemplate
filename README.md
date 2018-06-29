@@ -23,7 +23,6 @@
 |       Dockerfile
 |
 \---src
-        index.html
         info.php
 ```
 
