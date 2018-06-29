@@ -46,6 +46,18 @@ project は*src*ディレクトリに作成される
 
 `docker-compose down & docker-compose up -d`で再ビルド。
 
+### MySql接続
+
+*src/project/.env*を開き編集
+
+```
+DB_CONNECTION=mysql
+DB_HOST=laravel_mysql
+DB_PORT=3306
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+
 ### ブラウザ確認
 
 1. `docker-machine ls`でURLを確認し、8080ポートで確認する
